@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+ 
+body{margin:0;padding:0;width:100%;}
+
+
+
+
+/*capa*/
+
+
+/*foto de perfil*/
+.logo{
+
+	position: relative;
+    margin: auto;
+	margin-top: -80px;
+	width: 80px;
+	height: 80px;
+	/*deixa a borda redonda*/
+	border-radius: 100%;
+	border: 1px solid rgb(181, 178, 178);
+	background: url("https://yt3.ggpht.com/a/AGF-l79AB1cw07nMg9_GNZkMSiubyj5HBPR_Lk5jGw=s900-c-k-c0xffffffff-no-rj-mo");
+	background-size: cover;
+	background-position: center;
+    
+}
+
+.iconefoto {
+
+	position: relative;
+   
+	/*usar bootstrap pra fazer um botao com icone*/
+	
+	
+
+}
+
+
+/*capa*/
+.header{
+	position:relative;
+	width:100%;
+	height:250px;
+	border-bottom: 3px solid #fff;
+	background-color: #ffffff;
+	background-position:center;
+	background-color: #ffffff;
+	background-image: url("https://logojinni.com/image/logos/baldan.svg");
+    
+	background-size:cover;
+}
+
+/*nome empresa*/
+.tituloperfil h1{
+	font-family: 'raleway', sans-serif;
+	font-weight: 700;
+	color:rgb(0, 0, 0);
+	font-size:35px;
+	text-align:center;
+	margin-top:10px;
+}
+/*descrição preciso programar no html*/
+.descriçao p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(231, 8, 8);
+}
+
+
+/* celular */
+@media screen and (max-width: 1800px) {
+	
+		.logo{
+
+			position: relative;
+			margin: auto;
+			margin-top: -80px;
+			width: 200px;
+			height: 200px;
+			/*deixa a borda redonda*/
+			border-radius: 100%;
+			border: 1px solid rgb(181, 178, 178);
+			background: url("https://yt3.ggpht.com/a/AGF-l79AB1cw07nMg9_GNZkMSiubyj5HBPR_Lk5jGw=s900-c-k-c0xffffffff-no-rj-mo");
+			background-size: cover;
+			background-position: center;
+			
+		}
+		
+		
+		
+		/*capa*/
+		.header{
+			position:relative;
+			width:100%;
+			height:250px;
+			border-bottom: 3px solid #fff;
+			background-color: #ffffff;
+			background-position:center;
+			background-color: #ffffff;
+			background-image: url("https://logojinni.com/image/logos/baldan.svg");
+			
+			background-size:cover;
+		}
+		
+		
+		
+		
+	}
+
+
+
+
+
+/* tablet */
+@media screen and (max-width: 800px) {
+	
+	.logo{
+
+		position: relative;
+		margin: auto;
+		margin-top: -50px;
+		width: 100px;
+		height: 100px;
+		/*deixa a borda redonda*/
+		border-radius: 100%;
+		border: 1px solid rgb(181, 178, 178);
+		background: url("https://yt3.ggpht.com/a/AGF-l79AB1cw07nMg9_GNZkMSiubyj5HBPR_Lk5jGw=s900-c-k-c0xffffffff-no-rj-mo");
+		background-size: cover;
+		background-position: center;
+		
+	}
+	
+	
+	
+	/*capa*/
+	.header{
+		position:relative;
+		width:100%;
+		height: 90px;
+		border-bottom: 3px solid #fff;
+		background-color: #ffffff;
+		background-position:center;
+		background-color: #ffffff;
+		background-image: url("https://logojinni.com/image/logos/baldan.svg");
+		background-size:cover;
+	}
+	
+	
+	
+}
+

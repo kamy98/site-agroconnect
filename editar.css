@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@200&display=swap');
+ 
+body{background-color: #ffffff;margin:0;padding:0;width:100%; font-family:'Open Sans','Raleway', sans-serif;}
+
+/*capa*/
+.header-editar{
+	position:relative;
+	width:100%;
+	height:230px;
+	border-bottom: 3px solid #fff;
+	background-color: #ffffff;
+	background-position:center;
+	background-color: #ffffff;
+	background-image: url("https://logojinni.com/image/logos/baldan.svg");
+    border: 1px solid rgb(181, 178, 178);
+	background-size:cover;
+}
+
+/*foto de perfil*/
+.logo-editar{
+
+	position: relative;
+    margin: auto;
+	margin-top: -80px;
+	width: 150px;
+	height:150px;
+	/*deixa a borda redonda*/
+	border-radius: 100%;
+	border: 1px solid rgb(181, 178, 178);
+	background: url("https://yt3.ggpht.com/a/AGF-l79AB1cw07nMg9_GNZkMSiubyj5HBPR_Lk5jGw=s900-c-k-c0xffffffff-no-rj-mo");
+	background-size: cover;
+	background-position: center;
+    
+}
+
+#botaoFoto{
+	background-color: #0067e8;
+	color: rgb(255, 255, 255);
+	border-style: none;
+	float: right;
+	margin-top: -60px;
+	margin-right: 50px;
+}
+
+
+/*nome empresa*/
+.nomeEmpresa h1{
+	
+	font-weight: 700;
+	color:rgb(0, 0, 0);
+	font-size:35px;
+	text-align:center;
+	margin-top:10px;
+}
+.tituloSobre{
+	text-align:center;
+	font-size: 25px;
+	font-weight: 400;
+	color: rgb(0, 0, 0);
+	
+}
+
+  /* Formata o container */
+  .container-editar {
+    border-radius: 5px;
+    background-color: #e1f1de;
+    height: 212px;
+	margin-top: 20px;
+	margin-left: 7%;
+    margin-right: 7%; 
+	
+  }
+/*formulario sobre a empresa*/
+/* estilo inputs and textareas */
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:200px;
+    margin-top: 6px;
+    float: left;
+	background-color: #ffffff;
+  }
+  
+
+  
+#BotaoGuardar{
+	background-color: #0067e8;
+	color: rgb(255, 255, 255);
+	border-style: none;
+
+	margin-top: 10px;
+}
+
+.hr{
+	width: 90%;
+	}	
+
+#BotaoPostar{
+	background-color: #0067e8;
+	color: rgb(255, 255, 255);
+	border-style: none;
+	float: right;
+	margin-right: 50px;
+	
+	
+}
+
+.container2 {
+    border-radius: 5px;
+    background-color: #e1f1de;
+    height: 520px;
+	margin-top: 65px;
+	width: 86%;
+	/*centralizar*/
+	margin-left: auto;
+    margin-right: auto; 
+	
+  }
+
+
+.logoPOSTAGEM{
+	margin-bottom: 15px;
+	padding-top: 15px;
+    margin-top: 15px;
+	margin-left: 10px;
+	width: 50px;
+	height: 100px;
+	/*deixa a borda redonda*/
+	border-radius: 100%;
+	border: 1px solid rgb(181, 178, 178);
+	background: url("https://yt3.ggpht.com/a/AGF-l79AB1cw07nMg9_GNZkMSiubyj5HBPR_Lk5jGw=s900-c-k-c0xffffffff-no-rj-mo");
+	background-size: cover;
+	background-position: left;
+}
+.editar-p4{
+	margin-top: -60px;
+	margin-left: 55px;
+	color: rgb(0, 0, 0);
+}
+.editar-p{
+	margin-top: 14px;
+margin-left: 55px;
+color: rgb(0, 0, 0);
+  }
+
+  .editar-p2{
+margin-left: 55px;
+color: rgb(0, 0, 0);
+  }
+
+  .imagemMaquina{
+	width: 600px;
+	height: 300px;
+	margin-top: -80px;
+	
+	
+  }
+  
+  /* tablet*/
+  @media screen and (max-width: 1024px) and (min-width: 480px){ 
+	.logo-editar{
+
+		position: relative;
+		margin: auto;
+		margin-top: -50px;
+		width: 100px;
+		height: 100px;
+		/*deixa a borda redonda*/
+		border-radius: 100%;
+		border: 1px solid rgb(181, 178, 178);
+		background: url("https://yt3.ggpht.com/a/AGF-l79AB1cw07nMg9_GNZkMSiubyj5HBPR_Lk5jGw=s900-c-k-c0xffffffff-no-rj-mo");
+		background-size: cover;
+		background-position: center;
+		
+	}
+	
+	
+	
+	/*capa*/
+	.header-editar{
+		position:relative;
+		width: 100%;;
+		height: 100px;/*arrumar*/
+		border-bottom: 3px solid #fff;
+		background-color: #ffffff;
+		background-position:center;
+		background-color: #ffffff;
+		background-image: url("https://logojinni.com/image/logos/baldan.svg");
+		background-size:cover;
+		border: 1px solid rgb(181, 178, 178);
+	}
+	
+	#botaoFoto{
+		background-color: #0067e8;
+		color: rgb(255, 255, 255);
+		border-style: none;
+		float: right;
+		margin-top: -40px;
+		margin-right: 50px;
+	}
+
+  }
+
+
+
+
+/* celular */
+@media screen and (max-width: 500px) and (min-width: 250px){ 
+	
+		
+		/*capa*/
+		.header-editar{
+			position:relative;
+			width:100%;
+			height:60px;
+			border-bottom: 3px solid #fff;
+			background-color: #ffffff;
+			background-position:center;
+			background-color: #ffffff;
+			background-image: url("https://logojinni.com/image/logos/baldan.svg");
+			border: 1px solid rgb(181, 178, 178);
+			background-size:cover;
+		}
+		
+		
+		
+		
+		.logo-editar{
+
+			position: relative;
+			margin: auto;
+			margin-top: -40px;
+			width: 70px;
+			height: 70px;
+			/*deixa a borda redonda*/
+			border-radius: 100%;
+			border: 1px solid rgb(181, 178, 178);
+			background: url("https://yt3.ggpht.com/a/AGF-l79AB1cw07nMg9_GNZkMSiubyj5HBPR_Lk5jGw=s900-c-k-c0xffffffff-no-rj-mo");
+			background-size: cover;
+			background-position: center;
+			
+		}
+		
+		#botaoFoto{
+			background-color: #0067e8;
+			color: rgb(255, 255, 255);
+			border-style: none;
+			float: right;
+			margin-top: -20px;
+			margin-right: 20px;
+		}
+
+		.container2 {
+			border-radius: 5px;
+			background-color: #edebeb;
+			height: 550px;
+			margin-top: 65px;
+			width: 86%;
+			/*centralizar*/
+			margin-left: auto;
+			margin-right: auto; 
+			
+		  }
+		
+	}
+
+
+
+

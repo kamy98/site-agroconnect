@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@200&display=swap');
+ 
+body{background-color: #f4fff3;margin:0px;padding:0;width:100%; font-family:'Open Sans','Raleway', sans-serif;}
+
+.hr{
+  width: 90%;
+}
+
+h1{
+   color: rgb(4, 171, 7);
+    padding-top: 50px;
+  
+}
+/*att: vic - divulgação*/
+.containerD{
+    border-radius: 5px;
+    background-color: #e1f1de;
+    height: 550px;
+	margin-top: 20px;
+	width: 86%;
+	/*centralizar*/
+	margin-left: auto;
+    margin-right: auto; 
+	
+  }
+
+  .logoPOSTAGEMS{
+    margin-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    /*deixa a borda redonda*/
+    border-radius: 100%;
+    border: 1px solid rgb(181, 178, 178);
+    background: url("https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize%2F2020%2F06%2F09%2F10%2FLogo-268136_463201_103718067_244938267.jpg");
+    background-size: cover;
+ 
+  }
+  .NATUREBA{
+    margin-top: -50px;
+    padding: -100px;
+   margin-left:  70px;
+  }
+  .logoPOSTAGEM2{
+    margin-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    /*deixa a borda redonda*/
+    border-radius: 100%;
+    border: 1px solid rgb(181, 178, 178);
+    background: url("https://www.wsmambiental.com.br/wp-content/webp-express/webp-images/themes/themewsm/img/resources/logo.png.webp");
+    background-size: cover;
+ 
+  }
+  
+  p{
+  margin-top: 7px;/*tava 14px, mudei pq o noot de casa bugou com 14px e ficou centralizado com 1px*/
+  margin-left: 70px;
+  color: rgb(0, 0, 0);
+    }
+  
+    .imagemMaquina{
+    width: 600px;
+    height: 300px;
+    
+    
+    }
+  
+
+    #BotaoLer{
+    background-color: #0067b0;
+	color: rgb(255, 255, 255);
+	border-style: none;
+
+	margin-top: 10px;
+    }
+
+
+
+    @media(max-width: 1024px) {/*TABLET- mudei o 700px para 1024*/
+   
+    /* divulgação maquina baldan*/
+    .imagemMaquina{
+      width: 450px;
+      height: 375px;
+    }
+
+    .containerD{
+        height: 650px; 
+      } 
+    
+      }
+      /* celular */
+      @media  (min-width: 200px) and (max-width: 500px) {
+      
+  /* divulgação maquina baldan*/
+  .imagemMaquina{
+    width: 300px;
+    height: 150px;
+  } 
+
+    .containerD{
+    height: 700px; 
+  } 
+       }

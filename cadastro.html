@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="cadastro.css">
+
+    <title>AgroConnect</title>
+</head>
+<header>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+   
+      <div class="navContainer">
+        <!-- Nav -->
+        <nav class="main-nav">
+          <img src="Logo Agroconnect.png" alt="Agroconnect" class="logo">
+            <div class="agroConnectLogo">AgroConnect</div> 
+          <ul class="main-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="maquinas.html">Maquinas</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="editar.html">Perfil</a></li>
+          </ul>
+</header>
+<body>
+    <!-- Botão Subir Pagina -->
+    <button onclick="topFunction()" id="myBtn" title="Ir para o topo">Início</button>
+<!-- Botão Subir Pagina -->
+
+<script>
+// Pega o botão
+let mybutton = document.getElementById("myBtn");
+
+// Quando o usuário descer 20px o botão aparece
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// Quando o usuário clicar no botão, sobe a página
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<div>
+  <img id="fundoCadastro" src="fundoCadastro.jpg" alt="">
+  <div id="containerCadastro">
+
+<!-- Head LogIn -->
+  <form action="/action_page.php" class="containerCadastro">
+    <div class="headingCadastro">
+    <div id="heading">Cadastro</div>
+    <img class="empresa" src="briefcase.png" alt="Maleta">
+    <div id="headingEmpresas">Empresas</div>
+  </div>
+<!-- Head LogIn -->
+
+<hr class="linha1">
+
+<!-- Input de Email -->
+<section class="sectionControl">
+  <div class="mb-2">
+          <label for="formControlInput1" class="form-label">Email</label>
+      <div class="formControl">
+          <input type="email" class="form-control" id="formControlInput1" placeholder="exemplo@email.com" required>
+      </div>
+  </div>
+<!-- Input de Email -->
+
+<!-- Nome da Empresa -->
+<div class="mb-2">
+    <label for="formControlInputNome" class="form-label">Nome da Empresa</label>
+    <div class="formControl">
+      <input type="text" class="form-control" id="formControlInputNome" required>
+    </div>
+</div>
+<!-- Nome da Empresa -->
+
+
+<!-- Input CNPJ -->
+<div class="mb-2">
+    <label for="formControlInputCNPJ" class="form-label">CNPJ</label>
+    <div class="formControl">
+      <input type="number" class="form-control" id="formControlInputNome" placeholder="Somente números" required>
+    </div>
+</div>
+<!-- Input CNPJ -->
+
+<!-- Input de Senha -->
+<div class="mb-2">
+  <label for="formControlInput2" class="form-label">Defina uma senha</label>
+<div class="formControl">
+  <input type="password" class="form-control" id="formControlInput2" placeholder="Pelo menos 8 caracteres" required></input>
+</div>
+</div>
+</section>
+<!-- Input de Senha -->
+
+<!-- Botão Cadastrar-se -->
+<section class="botaoCadastrar">
+  <div class="d-grid gap-2 col-3 mx-auto">
+      <button type="submit" onclick="window.location.href='home.html';" class="btn btn-primary" id="botaoCadastrar" type="button">Cadastrar-se</button>
+    </div>
+  </section>
+<!-- Botão Cadastrar-se -->
+
+  <hr class="linha2">
+
+<!-- Botão já tem login -->
+<section>
+  <div class="possuiConta">Já possui conta?</div>
+  <div class="botaoPossuiConta">
+  <button type="button" onclick="window.location.href='home.html';" id="botaoPossuiConta" class="btn btn-link">Login</button>
+  </div>
+</section>
+<!-- Botão já tem login -->
+
+  </form>
+</div>
+</div>
+</body>
+</html>
